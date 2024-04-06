@@ -1,0 +1,183 @@
+.dbms-body {
+  background: linear-gradient(to right, #61c2e2 0%, #ff99cc 100%);
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.dbms-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: #5b0075;
+}
+
+.dbms-logo {
+  width: 100px;
+  height: auto;
+}
+
+.dbms-links {
+  display: flex;
+  align-items: center;
+}
+
+.dbms-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.dbms-menu-toggle {
+  display: none;
+}
+
+.dbms-heading {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 40px;
+}
+
+.unit{
+  padding-top: 12px;
+  
+}
+.unit a{
+  text-decoration-line: none;
+  background-color: #5b0075;
+  border-radius: 10px;
+  padding: 10px;
+  color: #fff;
+  margin: 5px;
+}
+.unit a:hover{
+  background-color: #fff;
+  color: black;
+  transition-duration: 1s;
+}
+
+
+#unit1{
+  width: 900px;
+  border: 1px solid rgb(180, 180, 180);
+  margin: auto;
+  margin-top: 35px;
+  border-radius: 15px;
+  padding: 27px;
+  background: linear-gradient(to right,rgba(255, 255, 255, 0.864),rgba(243, 243, 243, 0.968));
+}
+
+#unit1 h2{
+  text-align: center;
+}
+
+.syllabus a{
+  text-decoration-line: none;
+  font-size: 20px;
+}
+
+#pds h3{
+  font-size: 25px;
+}
+#vod{
+  font-size: 23px;
+}
+
+.rd{
+  font-size: 20px;
+}
+
+.rd ul li{
+  padding: 5px;
+}
+
+.vid1{
+  padding-left: 27px;
+}
+
+#pds ol li{
+  padding-left: 6px;
+  font-size: 18px;
+}
+
+#vod ol li{
+  padding-left: 6px;
+  font-size: 18px;
+}
+
+.vid1 a h3{
+  width: 120px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 20px;
+  color: #fff;
+  background-color: darkblue;
+  
+}
+
+.vid1 a h3:hover{
+  background-color: red;
+}
+ 
+
+.vid1 a{
+  text-decoration-line: none;
+}
+
+.frame iframe{
+  width: 800px;
+  height: 600px;
+}
+
+@media (max-width: 913px) {
+
+  
+  
+  #unit1{
+      width: 600px;
+      
+  }
+  .vid1 iframe{
+      width: 560px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .frame iframe{
+    height: 900px;
+  }
+
+  #unit1{
+      width: 350px;
+  }
+
+
+
+  .logo {
+    margin-bottom: 20px;
+  }
+
+  .links {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+    cursor: pointer;
+  }
+
+  .menu-toggle .bar {
+    width: 30px;
+    height: 3px;
+    background: white;
+    margin: 5px auto;
+  }
+
+  .vid1 iframe{
+      width: 300px;
+      height: 170px;
+      padding-left: 10px;
+    }
+}
