@@ -21,8 +21,8 @@ Follow these steps to set up the Study Content Website on your local machine:
 2. Navigate to the project directory in your terminal.
 3. Install Node.js if not already installed on your system.
 4. Install MongoDB if not already installed on your system.
-5. In the terminal, navigate to the backend directory (`cd server`) and run `npm install` to install backend dependencies.
-6. In the terminal, navigate to the frontend directory (`cd client`) and run `npm install` to install frontend dependencies.
+5. In the terminal, navigate to the backend directory `cd server` and run `npm install` to install backend dependencies.
+6. In the terminal, navigate to the frontend directory `cd client` and run `npm install` to install frontend dependencies.
 7. Once dependencies are installed, run `npm start` in the backend and  run `npm run dev` in frontend directories to start the development servers.
 8. Access the Study Content Website in your web browser at `http://localhost:5173/`.
 
