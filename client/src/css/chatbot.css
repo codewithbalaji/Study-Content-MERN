@@ -17,7 +17,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background: #69275c;
+  background: #fff;
   transition: all 0.2s ease;
 }
 body.show-chatbot .chatbot-toggler {
@@ -105,7 +105,7 @@ header h2 {
   text-align: center;
   line-height: 32px;
   align-self: flex-end;
-  background: #724ae8;
+  background: #69275c;
   border-radius: 4px;
   margin: 0 10px 7px 0;
 }
@@ -116,7 +116,7 @@ header h2 {
   max-width: 75%;
   color: #fff;
   font-size: 0.95rem;
-  background: #724ae8;
+  background: #69275c;
   margin: 5px;
 }
 .chatbox .incoming p {
