@@ -1,0 +1,10 @@
+.container-score{
+    width: 900px;
+    height: 100vh;
+    background-color: aqua;
+    margin: auto;
+}
+
+.container-score h1{
+    text-align: center;
+}

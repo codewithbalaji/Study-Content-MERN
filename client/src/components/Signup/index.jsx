@@ -23,7 +23,7 @@ const Signup = () => {
     try {
       const url = "http://localhost:3001/register";
       const { data: res } = await axios.post(url, data);
-      toast.success("Account Created Sucessfully");
+      toast.success("Account Created Successfully");
       setTimeout(() => {
         navigate("/login");
       }, 2000);
@@ -34,11 +34,17 @@ const Signup = () => {
         error.response.status >= 400 &&
         error.response.status <= 500
       ) {
-        toast.error('Server Issue')
-        setError(error.response.data.message);
+        if (error.response.data === "User already exists") {
+          toast.error("User already exists");
+          setError("User already exists");
+        } else {
+          toast.error("Server Issue");
+          setError("Server Issue");
+        }
       }
     }
   };
+  
 
   return (
     <>

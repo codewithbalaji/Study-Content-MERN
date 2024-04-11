@@ -10,7 +10,7 @@ function Chatbot() {
   const chatboxRef = useRef(null);
   const chatInputRef = useRef(null);
 
-  const API_KEY = "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//removeit"; // Paste your API key here
+  const API_KEY = "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"; // Paste your API key here
 
   useEffect(() => {
     setInputInitHeight(chatInputRef.current.scrollHeight);

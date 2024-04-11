@@ -6,6 +6,8 @@ import Home from "./pages/Home";
 import Dbms from './pages/Dbms';
 import Ca from './pages/Ca';
 import QuizPage from './pages/QuizPage';
+import Profile from './pages/Profile';
+import Score from "./pages/Score";
 const App = () => {
   return (
     <div>
@@ -16,6 +18,8 @@ const App = () => {
         <Route path="/dbms" element={<Dbms />} />
         <Route path="/ca" element={<Ca />} />
         <Route path="/quizpage" element={<QuizPage />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/score" element={<Score />} />
         </Route>
         <Route path="/login" element={<Login/>} />
         <Route path="/signup" element={<Signup/>} />

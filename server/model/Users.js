@@ -4,7 +4,8 @@
     firstName:String,
     lastName:String,
     email:String,
-    password:String
+    password:String,
+    profileUrl:String
  })
 
  const UsersModel = mongoose.model("users", UsersSchema)
